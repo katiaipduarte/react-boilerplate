@@ -1,3 +1,10 @@
+# dependencies
 node_modules
+
+# build
 .cache
 dist
+
+# testing
+coverage
+src/__snapshots__
