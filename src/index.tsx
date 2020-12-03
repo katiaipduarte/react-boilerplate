@@ -1,12 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Hello from './components/Hello';
+import Link from './components/atoms/Link/Link';
+
 import './index.scss';
 
 const App = (): JSX.Element => {
   return (
     <div className="color">
-      <Hello compiler="parcel" framework="123" />
+      <Link href="www.google.com">test</Link>
     </div>
   );
 };

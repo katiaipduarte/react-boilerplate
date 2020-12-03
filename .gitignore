@@ -7,4 +7,4 @@ dist
 
 # testing
 coverage
-src/__snapshots__
+src/**/**/__snapshots__
