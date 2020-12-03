@@ -1,6 +1,6 @@
-import React from "react";
-import { render } from "react-dom";
-import Hello from "./components/Hello";
+import React from 'react';
+import { render } from 'react-dom';
+import Hello from './components/Hello';
 
 const App = (): JSX.Element => {
   return (
@@ -10,4 +10,4 @@ const App = (): JSX.Element => {
   );
 };
 
-render(<App />, document.getElementById("app"));
+render(<App />, document.getElementById('app'));
