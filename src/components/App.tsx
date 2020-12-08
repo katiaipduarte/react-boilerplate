@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useCookies } from 'react-cookie';
+import { CookiesProvider, useCookies } from 'react-cookie';
 
 const App = (): JSX.Element => {
   const cookie_key = 'COOKIE';
@@ -18,7 +18,11 @@ const App = (): JSX.Element => {
   const clear = (): void => {
     removeCookie(cookie_key);
   };
-  return <></>;
+  return (
+    <CookiesProvider>
+      <h2>App</h2>
+    </CookiesProvider>
+  );
 };
 
 export default App;
